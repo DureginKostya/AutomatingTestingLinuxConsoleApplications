@@ -1,0 +1,9 @@
+TST: /home/user/tst
+OUT: /home/user/out
+FOLDER_E: /home/user/folder_e
+FOLDER_X: /home/user/folder_x
+count: 5
+bs: 1M
+type: zip
+file_name_stat: stat.txt
+stat_processes: /proc/loadavg
