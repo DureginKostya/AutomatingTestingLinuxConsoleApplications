@@ -1,0 +1,12 @@
+TST: /home/user2/tst
+OUT: /home/user2/out
+FOLDER_E: /home/user2/folder_e
+FOLDER_X: /home/user2/folder_x
+count: 5
+bs: 1M
+type: zip
+file_name_stat: stat.txt
+stat_processes: /proc/loadavg
+ip: 127.0.0.1
+user: user2
+passwd: 2222

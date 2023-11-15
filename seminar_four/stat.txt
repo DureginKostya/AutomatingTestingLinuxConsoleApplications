@@ -1,0 +1,188 @@
+19:38:16:129567 | 5 | 1M | 2.50 1.81 1.38 9/600 25527
+19:38:17:006105 | 5 | 1M | 2.50 1.81 1.38 3/600 25616
+19:38:25:990694 | 5 | 1M | 2.75 1.89 1.41 5/591 26418
+19:38:29:268314 | 5 | 1M | 2.75 1.89 1.41 3/586 26777
+19:38:32:124596 | 5 | 1M | 2.77 1.91 1.42 5/586 27091
+19:38:33:087345 | 5 | 1M | 2.77 1.91 1.42 4/586 27180
+19:38:36:191702 | 5 | 1M | 3.19 2.01 1.46 8/585 27533
+19:38:37:563958 | 5 | 1M | 3.19 2.01 1.46 5/585 27666
+19:38:38:457783 | 5 | 1M | 3.19 2.01 1.46 6/585 27755
+19:38:39:197844 | 5 | 1M | 3.19 2.01 1.46 9/585 27844
+ноя 15 19:38:05 userpc systemd[24526]: Queued start job for default target Main User Target.
+ноя 15 19:38:05 userpc systemd[24526]: Created slice User Application Slice.
+ноя 15 19:38:05 userpc systemd[24526]: Created slice User Background Tasks Slice.
+ноя 15 19:38:05 userpc systemd[24526]: Created slice User Core Session Slice.
+ноя 15 19:38:05 userpc systemd[24526]: Started Pending report trigger for Ubuntu Report.
+ноя 15 19:38:05 userpc systemd[24526]: Reached target Paths.
+ноя 15 19:38:05 userpc systemd[24526]: Reached target Timers.
+ноя 15 19:38:05 userpc systemd[24526]: Starting D-Bus User Message Bus Socket...
+ноя 15 19:38:05 userpc systemd[24526]: Listening on GnuPG network certificate management daemon.
+ноя 15 19:38:05 userpc systemd[24526]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+ноя 15 19:38:05 userpc systemd[24526]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+ноя 15 19:38:05 userpc systemd[24526]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+ноя 15 19:38:05 userpc systemd[24526]: Listening on GnuPG cryptographic agent and passphrase cache.
+ноя 15 19:38:05 userpc systemd[24526]: Listening on PipeWire Multimedia System Socket.
+ноя 15 19:38:05 userpc systemd[24526]: Listening on debconf communication socket.
+ноя 15 19:38:05 userpc systemd[24526]: Listening on Sound System.
+ноя 15 19:38:05 userpc systemd[24526]: Listening on REST API socket for snapd user session agent.
+ноя 15 19:38:05 userpc systemd[24526]: Listening on D-Bus User Message Bus Socket.
+ноя 15 19:38:05 userpc systemd[24526]: Reached target Sockets.
+ноя 15 19:38:05 userpc systemd[24526]: Reached target Basic System.
+ноя 15 19:38:05 userpc systemd[24526]: Started PipeWire Multimedia Service.
+ноя 15 19:38:05 userpc systemd[24526]: Started PipeWire Media Session Manager.
+ноя 15 19:38:05 userpc systemd[24526]: Starting Sound Service...
+ноя 15 19:38:05 userpc systemd[24526]: Started Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+ноя 15 19:38:05 userpc systemd[24526]: Starting Tracker metadata extractor...
+ноя 15 19:38:05 userpc systemd[24526]: Started Ubuntu report sends pending metrics data.
+ноя 15 19:38:05 userpc systemd[24526]: Started D-Bus User Message Bus.
+ноя 15 19:38:05 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] AppArmor D-Bus mediation is enabled
+ноя 15 19:38:05 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.1' (uid=1001 pid=24537 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+ноя 15 19:38:05 userpc systemd[24526]: Starting Virtual filesystem service...
+ноя 15 19:38:05 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Successfully activated service 'org.gtk.vfs.Daemon'
+ноя 15 19:38:05 userpc systemd[24526]: Started Virtual filesystem service.
+ноя 15 19:38:05 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Files' unit='tracker-miner-fs-3.service' requested by ':1.1' (uid=1001 pid=24537 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+ноя 15 19:38:05 userpc pipewire[24533]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+ноя 15 19:38:05 userpc pipewire[24533]: mod.rt: could not set nice-level to -11: Отказано в доступе
+ноя 15 19:38:05 userpc systemd[24526]: Starting Tracker file system data miner...
+ноя 15 19:38:06 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.4' (uid=1001 pid=24617 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 15 19:38:06 userpc systemd[24526]: Starting Virtual filesystem service - disk device monitor...
+ноя 15 19:38:06 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.6' (uid=1001 pid=24536 comm="/usr/bin/snap run snapd-desktop-integration " label="unconfined")
+ноя 15 19:38:06 userpc systemd[24526]: Starting flatpak document portal service...
+ноя 15 19:38:06 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.8' (uid=1001 pid=24676 comm="/usr/libexec/xdg-document-portal " label="unconfined")
+ноя 15 19:38:06 userpc systemd[24526]: Starting sandboxed app permission store...
+ноя 15 19:38:06 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+ноя 15 19:38:06 userpc systemd[24526]: Started sandboxed app permission store.
+ноя 15 19:38:06 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Successfully activated service 'org.freedesktop.portal.Documents'
+ноя 15 19:38:06 userpc systemd[24526]: Started flatpak document portal service.
+ноя 15 19:38:06 userpc pipewire-media-session[24534]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+ноя 15 19:38:06 userpc pipewire-media-session[24534]: mod.rt: could not make thread 24616 realtime using RTKit: Отказано в доступе
+ноя 15 19:38:06 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+ноя 15 19:38:06 userpc systemd[24526]: Started Virtual filesystem service - disk device monitor.
+ноя 15 19:38:06 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.4' (uid=1001 pid=24617 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 15 19:38:06 userpc systemd[24526]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+ноя 15 19:38:06 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+ноя 15 19:38:06 userpc systemd[24526]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+ноя 15 19:38:06 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.4' (uid=1001 pid=24617 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 15 19:38:06 userpc systemd[24526]: Starting Virtual filesystem service - digital camera monitor...
+ноя 15 19:38:06 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+ноя 15 19:38:06 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.4' (uid=1001 pid=24617 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 15 19:38:06 userpc systemd[24526]: Started Virtual filesystem service - digital camera monitor.
+ноя 15 19:38:06 userpc systemd[24526]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+ноя 15 19:38:06 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Activating service name='org.gnome.OnlineAccounts' requested by ':1.13' (uid=1001 pid=24705 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined")
+ноя 15 19:38:06 userpc goa-daemon[24709]: goa-daemon version 3.44.0 starting
+ноя 15 19:38:06 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Activating service name='org.gnome.Identity' requested by ':1.14' (uid=1001 pid=24709 comm="/usr/libexec/goa-daemon " label="unconfined")
+ноя 15 19:38:06 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Successfully activated service 'org.gnome.OnlineAccounts'
+ноя 15 19:38:06 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+ноя 15 19:38:06 userpc systemd[24526]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+ноя 15 19:38:06 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.4' (uid=1001 pid=24617 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 15 19:38:06 userpc systemd[24526]: Starting Virtual filesystem service - Apple File Conduit monitor...
+ноя 15 19:38:07 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+ноя 15 19:38:07 userpc systemd[24526]: Started Virtual filesystem service - Apple File Conduit monitor.
+ноя 15 19:38:07 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Successfully activated service 'org.gnome.Identity'
+ноя 15 19:38:07 userpc pipewire[24533]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+ноя 15 19:38:07 userpc pipewire[24533]: mod.rt: could not make thread 24647 realtime using RTKit: Отказано в доступе
+ноя 15 19:38:07 userpc snapd-desktop-i[24853]: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ноя 15 19:38:07 userpc snapd-desktop-i[24853]: Failed to do gtk init. Waiting for a new session with desktop capabilities.
+ноя 15 19:38:07 userpc snapd-desktop-i[24853]: Checking session /org/freedesktop/login1/session/_3435...
+ноя 15 19:38:07 userpc snapd-desktop-i[24853]: Checking session /org/freedesktop/login1/session/_32...
+ноя 15 19:38:07 userpc sudo[24859]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 15 19:38:07 userpc sudo[24859]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 15 19:38:08 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Successfully activated service 'org.freedesktop.Tracker3.Miner.Files'
+ноя 15 19:38:08 userpc systemd[24526]: Started Tracker file system data miner.
+ноя 15 19:38:08 userpc systemd[24526]: Started Tracker metadata extractor.
+ноя 15 19:38:08 userpc systemd[24526]: Started Sound Service.
+ноя 15 19:38:08 userpc systemd[24526]: Reached target Main User Target.
+ноя 15 19:38:08 userpc systemd[24526]: Startup finished in 3.693s.
+ноя 15 19:38:08 userpc sudo[24859]: pam_unix(sudo:session): session closed for user root
+ноя 15 19:38:09 userpc snapd-desktop-i[24853]: Detected new session 436 at /org/freedesktop/login1/session/_3436
+ноя 15 19:38:09 userpc sudo[24936]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 15 19:38:09 userpc sudo[24936]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 15 19:38:09 userpc sudo[24936]: pam_unix(sudo:session): session closed for user root
+ноя 15 19:38:09 userpc snapd-desktop-i[24853]: Detected new session 437 at /org/freedesktop/login1/session/_3437
+ноя 15 19:38:09 userpc sudo[24982]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/libarchive-zip-perl.deb
+ноя 15 19:38:09 userpc sudo[24982]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 15 19:38:10 userpc sudo[24982]: pam_unix(sudo:session): session closed for user root
+ноя 15 19:38:10 userpc snapd-desktop-i[24853]: Detected new session 438 at /org/freedesktop/login1/session/_3438
+ноя 15 19:38:11 userpc sudo[25039]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s libarchive-zip-perl
+ноя 15 19:38:11 userpc sudo[25039]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 15 19:38:11 userpc sudo[25039]: pam_unix(sudo:session): session closed for user root
+ноя 15 19:38:11 userpc snapd-desktop-i[24853]: Detected new session 439 at /org/freedesktop/login1/session/_3439
+ноя 15 19:38:11 userpc snapd-desktop-i[24853]: Detected new session 440 at /org/freedesktop/login1/session/_3440
+ноя 15 19:38:12 userpc snapd-desktop-i[24853]: Detected new session 441 at /org/freedesktop/login1/session/_3441
+ноя 15 19:38:12 userpc snapd-desktop-i[24853]: Detected new session 442 at /org/freedesktop/login1/session/_3442
+ноя 15 19:38:12 userpc snapd-desktop-i[24853]: Detected new session 443 at /org/freedesktop/login1/session/_3443
+ноя 15 19:38:13 userpc snapd-desktop-i[24853]: Detected new session 444 at /org/freedesktop/login1/session/_3444
+ноя 15 19:38:13 userpc snapd-desktop-i[24853]: Detected new session 445 at /org/freedesktop/login1/session/_3445
+ноя 15 19:38:14 userpc snapd-desktop-i[24853]: Detected new session 446 at /org/freedesktop/login1/session/_3446
+ноя 15 19:38:14 userpc snapd-desktop-i[24853]: Detected new session 447 at /org/freedesktop/login1/session/_3447
+ноя 15 19:38:15 userpc ubuntu-report[24542]: level=error msg="data were not delivered successfully to metrics server, retrying in 30s"
+ноя 15 19:38:15 userpc snapd-desktop-i[24853]: Detected new session 448 at /org/freedesktop/login1/session/_3448
+ноя 15 19:38:15 userpc snapd-desktop-i[24853]: Detected new session 449 at /org/freedesktop/login1/session/_3449
+ноя 15 19:38:16 userpc snapd-desktop-i[24853]: Detected new session 450 at /org/freedesktop/login1/session/_3450
+ноя 15 19:38:16 userpc snapd-desktop-i[24853]: Detected new session 451 at /org/freedesktop/login1/session/_3451
+ноя 15 19:38:17 userpc snapd-desktop-i[24853]: Detected new session 452 at /org/freedesktop/login1/session/_3452
+ноя 15 19:38:17 userpc snapd-desktop-i[24853]: Detected new session 453 at /org/freedesktop/login1/session/_3453
+ноя 15 19:38:18 userpc snapd-desktop-i[24853]: Detected new session 454 at /org/freedesktop/login1/session/_3454
+ноя 15 19:38:18 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.4' (uid=1001 pid=24617 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 15 19:38:18 userpc systemd[24526]: Starting Tracker metadata extractor...
+ноя 15 19:38:18 userpc snapd-desktop-i[24853]: Detected new session 455 at /org/freedesktop/login1/session/_3455
+ноя 15 19:38:18 userpc dbus-daemon[24565]: [session uid=1001 pid=24565] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 15 19:38:18 userpc systemd[24526]: Started Tracker metadata extractor.
+ноя 15 19:38:19 userpc sudo[25798]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 15 19:38:19 userpc sudo[25798]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 15 19:38:19 userpc sudo[25798]: pam_unix(sudo:session): session closed for user root
+ноя 15 19:38:20 userpc snapd-desktop-i[24853]: Detected new session 456 at /org/freedesktop/login1/session/_3456
+ноя 15 19:38:20 userpc sudo[25871]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 15 19:38:20 userpc sudo[25871]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 15 19:38:20 userpc sudo[25871]: pam_unix(sudo:session): session closed for user root
+ноя 15 19:38:20 userpc snapd-desktop-i[24853]: Detected new session 457 at /org/freedesktop/login1/session/_3457
+ноя 15 19:38:20 userpc sudo[25917]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/libarchive-zip-perl.deb
+ноя 15 19:38:20 userpc sudo[25917]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 15 19:38:21 userpc sudo[25917]: pam_unix(sudo:session): session closed for user root
+ноя 15 19:38:21 userpc snapd-desktop-i[24853]: Detected new session 458 at /org/freedesktop/login1/session/_3458
+ноя 15 19:38:21 userpc sudo[25974]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s libarchive-zip-perl
+ноя 15 19:38:21 userpc sudo[25974]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 15 19:38:21 userpc sudo[25974]: pam_unix(sudo:session): session closed for user root
+ноя 15 19:38:22 userpc snapd-desktop-i[24853]: Detected new session 459 at /org/freedesktop/login1/session/_3459
+ноя 15 19:38:22 userpc snapd-desktop-i[24853]: Detected new session 460 at /org/freedesktop/login1/session/_3460
+ноя 15 19:38:22 userpc snapd-desktop-i[24853]: Detected new session 461 at /org/freedesktop/login1/session/_3461
+ноя 15 19:38:23 userpc snapd-desktop-i[24853]: Detected new session 462 at /org/freedesktop/login1/session/_3462
+ноя 15 19:38:23 userpc snapd-desktop-i[24853]: Detected new session 463 at /org/freedesktop/login1/session/_3463
+ноя 15 19:38:23 userpc snapd-desktop-i[24853]: Detected new session 464 at /org/freedesktop/login1/session/_3464
+ноя 15 19:38:24 userpc snapd-desktop-i[24853]: Detected new session 465 at /org/freedesktop/login1/session/_3465
+ноя 15 19:38:24 userpc snapd-desktop-i[24853]: Detected new session 466 at /org/freedesktop/login1/session/_3466
+ноя 15 19:38:25 userpc snapd-desktop-i[24853]: Detected new session 467 at /org/freedesktop/login1/session/_3467
+ноя 15 19:38:25 userpc snapd-desktop-i[24853]: Detected new session 468 at /org/freedesktop/login1/session/_3468
+ноя 15 19:38:26 userpc snapd-desktop-i[24853]: Detected new session 469 at /org/freedesktop/login1/session/_3469
+ноя 15 19:38:26 userpc snapd-desktop-i[24853]: Detected new session 470 at /org/freedesktop/login1/session/_3470
+ноя 15 19:38:27 userpc snapd-desktop-i[24853]: Detected new session 471 at /org/freedesktop/login1/session/_3471
+ноя 15 19:38:27 userpc snapd-desktop-i[24853]: Detected new session 472 at /org/freedesktop/login1/session/_3472
+ноя 15 19:38:27 userpc snapd-desktop-i[24853]: Detected new session 473 at /org/freedesktop/login1/session/_3473
+ноя 15 19:38:28 userpc snapd-desktop-i[24853]: Detected new session 474 at /org/freedesktop/login1/session/_3474
+ноя 15 19:38:28 userpc snapd-desktop-i[24853]: Detected new session 475 at /org/freedesktop/login1/session/_3475
+ноя 15 19:38:29 userpc snapd-desktop-i[24853]: Detected new session 476 at /org/freedesktop/login1/session/_3476
+ноя 15 19:38:29 userpc snapd-desktop-i[24853]: Detected new session 477 at /org/freedesktop/login1/session/_3477
+ноя 15 19:38:29 userpc snapd-desktop-i[24853]: Detected new session 478 at /org/freedesktop/login1/session/_3478
+ноя 15 19:38:30 userpc snapd-desktop-i[24853]: Detected new session 479 at /org/freedesktop/login1/session/_3479
+ноя 15 19:38:30 userpc snapd-desktop-i[24853]: Detected new session 480 at /org/freedesktop/login1/session/_3480
+ноя 15 19:38:31 userpc snapd-desktop-i[24853]: Detected new session 481 at /org/freedesktop/login1/session/_3481
+ноя 15 19:38:31 userpc snapd-desktop-i[24853]: Detected new session 482 at /org/freedesktop/login1/session/_3482
+ноя 15 19:38:31 userpc snapd-desktop-i[24853]: Detected new session 483 at /org/freedesktop/login1/session/_3483
+ноя 15 19:38:32 userpc snapd-desktop-i[24853]: Detected new session 484 at /org/freedesktop/login1/session/_3484
+ноя 15 19:38:32 userpc snapd-desktop-i[24853]: Detected new session 485 at /org/freedesktop/login1/session/_3485
+ноя 15 19:38:33 userpc snapd-desktop-i[24853]: Detected new session 486 at /org/freedesktop/login1/session/_3486
+ноя 15 19:38:33 userpc snapd-desktop-i[24853]: Detected new session 487 at /org/freedesktop/login1/session/_3487
+ноя 15 19:38:34 userpc snapd-desktop-i[24853]: Detected new session 488 at /org/freedesktop/login1/session/_3488
+ноя 15 19:38:34 userpc snapd-desktop-i[24853]: Detected new session 489 at /org/freedesktop/login1/session/_3489
+ноя 15 19:38:34 userpc snapd-desktop-i[24853]: Detected new session 490 at /org/freedesktop/login1/session/_3490
+ноя 15 19:38:35 userpc snapd-desktop-i[24853]: Detected new session 491 at /org/freedesktop/login1/session/_3491
+ноя 15 19:38:35 userpc snapd-desktop-i[24853]: Detected new session 492 at /org/freedesktop/login1/session/_3492
+ноя 15 19:38:36 userpc snapd-desktop-i[24853]: Detected new session 493 at /org/freedesktop/login1/session/_3493
+ноя 15 19:38:36 userpc snapd-desktop-i[24853]: Detected new session 494 at /org/freedesktop/login1/session/_3494
+ноя 15 19:38:36 userpc snapd-desktop-i[24853]: Detected new session 495 at /org/freedesktop/login1/session/_3495
+ноя 15 19:38:37 userpc snapd-desktop-i[24853]: Detected new session 496 at /org/freedesktop/login1/session/_3496
+ноя 15 19:38:37 userpc snapd-desktop-i[24853]: Detected new session 497 at /org/freedesktop/login1/session/_3497
+ноя 15 19:38:38 userpc snapd-desktop-i[24853]: Detected new session 498 at /org/freedesktop/login1/session/_3498
+ноя 15 19:38:38 userpc snapd-desktop-i[24853]: Detected new session 499 at /org/freedesktop/login1/session/_3499
+ноя 15 19:38:39 userpc snapd-desktop-i[24853]: Detected new session 500 at /org/freedesktop/login1/session/_3500
+ноя 15 19:38:39 userpc snapd-desktop-i[24853]: Detected new session 501 at /org/freedesktop/login1/session/_3501
